@@ -20,7 +20,7 @@ async def generator(filter_query: Annotated[FilterParameters, Query()]):
     if (filter_query.exclude_numbers is False):
         allowed_chars += string.digits
     if (filter_query.exclude_special_chars is False):
-        allowed_chars += string.punctuation
+        allowed_chars += '!@#$%^&*()'
     random_string = ''.join(random.choices(allowed_chars, k=length))
     
-    return random_string
+    return {'password': random_string}

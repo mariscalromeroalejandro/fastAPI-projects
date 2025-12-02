@@ -2,8 +2,9 @@
 
 A simple FastAPI application that provides CRUD operations for users using SQLAlchemy and SQLite.
 
-![Pydantic](https://img.shields.io/badge/Pydantic-blue)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-red)
+[![Pydantic](https://img.shields.io/badge/Pydantic-blue)](https://docs.pydantic.dev/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-red)](https://www.sqlalchemy.org/)
+
 
 ## Features
 
